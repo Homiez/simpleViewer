@@ -14,7 +14,7 @@
 		78D5D05514C7E3D5003F8DFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5D05414C7E3D5003F8DFB /* main.m */; };
 		78D5D05914C7E3D5003F8DFB /* simpleViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5D05814C7E3D5003F8DFB /* simpleViewerAppDelegate.m */; };
 		78D5D05C14C7E3D5003F8DFB /* simpleViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5D05B14C7E3D5003F8DFB /* simpleViewerViewController.m */; };
-		78D5D05F14C7E3D5003F8DFB /* simpleViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D5D05D14C7E3D5003F8DFB /* simpleViewerViewController.xib */; };
+		78D5D06814C84869003F8DFB /* 769-h.htm in Resources */ = {isa = PBXBuildFile; fileRef = 78D5D06714C84869003F8DFB /* 769-h.htm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +22,15 @@
 		78D5D04814C7E3D5003F8DFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		78D5D04A14C7E3D5003F8DFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78D5D04C14C7E3D5003F8DFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		78D5D05014C7E3D5003F8DFB /* simpleViewer-Info.plist */ = {isa = PBXFileReference; path = "simpleViewer-Info.plist"; sourceTree = "<group>"; };
+		78D5D05014C7E3D5003F8DFB /* simpleViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "simpleViewer-Info.plist"; sourceTree = "<group>"; };
 		78D5D05214C7E3D5003F8DFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78D5D05414C7E3D5003F8DFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		78D5D05614C7E3D5003F8DFB /* simpleViewer-Prefix.pch */ = {isa = PBXFileReference; path = "simpleViewer-Prefix.pch"; sourceTree = "<group>"; };
-		78D5D05714C7E3D5003F8DFB /* simpleViewerAppDelegate.h */ = {isa = PBXFileReference; path = simpleViewerAppDelegate.h; sourceTree = "<group>"; };
+		78D5D05614C7E3D5003F8DFB /* simpleViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "simpleViewer-Prefix.pch"; sourceTree = "<group>"; };
+		78D5D05714C7E3D5003F8DFB /* simpleViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpleViewerAppDelegate.h; sourceTree = "<group>"; };
 		78D5D05814C7E3D5003F8DFB /* simpleViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleViewerAppDelegate.m; sourceTree = "<group>"; };
-		78D5D05A14C7E3D5003F8DFB /* simpleViewerViewController.h */ = {isa = PBXFileReference; path = simpleViewerViewController.h; sourceTree = "<group>"; };
+		78D5D05A14C7E3D5003F8DFB /* simpleViewerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpleViewerViewController.h; sourceTree = "<group>"; };
 		78D5D05B14C7E3D5003F8DFB /* simpleViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleViewerViewController.m; sourceTree = "<group>"; };
-		78D5D05E14C7E3D5003F8DFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/simpleViewerViewController.xib; sourceTree = "<group>"; };
+		78D5D06714C84869003F8DFB /* 769-h.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "769-h.htm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 				78D5D05814C7E3D5003F8DFB /* simpleViewerAppDelegate.m */,
 				78D5D05A14C7E3D5003F8DFB /* simpleViewerViewController.h */,
 				78D5D05B14C7E3D5003F8DFB /* simpleViewerViewController.m */,
-				78D5D05D14C7E3D5003F8DFB /* simpleViewerViewController.xib */,
+				78D5D06714C84869003F8DFB /* 769-h.htm */,
 				78D5D04F14C7E3D5003F8DFB /* Supporting Files */,
 			);
 			path = simpleViewer;
@@ -150,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78D5D05314C7E3D5003F8DFB /* InfoPlist.strings in Resources */,
-				78D5D05F14C7E3D5003F8DFB /* simpleViewerViewController.xib in Resources */,
+				78D5D06814C84869003F8DFB /* 769-h.htm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,14 +176,6 @@
 				78D5D05214C7E3D5003F8DFB /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		78D5D05D14C7E3D5003F8DFB /* simpleViewerViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78D5D05E14C7E3D5003F8DFB /* en */,
-			);
-			name = simpleViewerViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
