@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78D5D04914C7E3D5003F8DFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5D04814C7E3D5003F8DFB /* UIKit.framework */; };
+		78D5D04B14C7E3D5003F8DFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5D04A14C7E3D5003F8DFB /* Foundation.framework */; };
+		78D5D04D14C7E3D5003F8DFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D5D04C14C7E3D5003F8DFB /* CoreGraphics.framework */; };
+		78D5D05314C7E3D5003F8DFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78D5D05114C7E3D5003F8DFB /* InfoPlist.strings */; };
+		78D5D05514C7E3D5003F8DFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5D05414C7E3D5003F8DFB /* main.m */; };
+		78D5D05914C7E3D5003F8DFB /* simpleViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5D05814C7E3D5003F8DFB /* simpleViewerAppDelegate.m */; };
+		78D5D05C14C7E3D5003F8DFB /* simpleViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D5D05B14C7E3D5003F8DFB /* simpleViewerViewController.m */; };
+		78D5D05F14C7E3D5003F8DFB /* simpleViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D5D05D14C7E3D5003F8DFB /* simpleViewerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78D5D04414C7E3D5003F8DFB /* simpleViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D5D04814C7E3D5003F8DFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78D5D04A14C7E3D5003F8DFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78D5D04C14C7E3D5003F8DFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78D5D05014C7E3D5003F8DFB /* simpleViewer-Info.plist */ = {isa = PBXFileReference; path = "simpleViewer-Info.plist"; sourceTree = "<group>"; };
+		78D5D05214C7E3D5003F8DFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78D5D05414C7E3D5003F8DFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78D5D05614C7E3D5003F8DFB /* simpleViewer-Prefix.pch */ = {isa = PBXFileReference; path = "simpleViewer-Prefix.pch"; sourceTree = "<group>"; };
+		78D5D05714C7E3D5003F8DFB /* simpleViewerAppDelegate.h */ = {isa = PBXFileReference; path = simpleViewerAppDelegate.h; sourceTree = "<group>"; };
+		78D5D05814C7E3D5003F8DFB /* simpleViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleViewerAppDelegate.m; sourceTree = "<group>"; };
+		78D5D05A14C7E3D5003F8DFB /* simpleViewerViewController.h */ = {isa = PBXFileReference; path = simpleViewerViewController.h; sourceTree = "<group>"; };
+		78D5D05B14C7E3D5003F8DFB /* simpleViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleViewerViewController.m; sourceTree = "<group>"; };
+		78D5D05E14C7E3D5003F8DFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/simpleViewerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78D5D04114C7E3D5003F8DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D5D04914C7E3D5003F8DFB /* UIKit.framework in Frameworks */,
+				78D5D04B14C7E3D5003F8DFB /* Foundation.framework in Frameworks */,
+				78D5D04D14C7E3D5003F8DFB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78D5D03914C7E3D5003F8DFB = {
+			isa = PBXGroup;
+			children = (
+				78D5D04E14C7E3D5003F8DFB /* simpleViewer */,
+				78D5D04714C7E3D5003F8DFB /* Frameworks */,
+				78D5D04514C7E3D5003F8DFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78D5D04514C7E3D5003F8DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78D5D04414C7E3D5003F8DFB /* simpleViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78D5D04714C7E3D5003F8DFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78D5D04814C7E3D5003F8DFB /* UIKit.framework */,
+				78D5D04A14C7E3D5003F8DFB /* Foundation.framework */,
+				78D5D04C14C7E3D5003F8DFB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78D5D04E14C7E3D5003F8DFB /* simpleViewer */ = {
+			isa = PBXGroup;
+			children = (
+				78D5D05714C7E3D5003F8DFB /* simpleViewerAppDelegate.h */,
+				78D5D05814C7E3D5003F8DFB /* simpleViewerAppDelegate.m */,
+				78D5D05A14C7E3D5003F8DFB /* simpleViewerViewController.h */,
+				78D5D05B14C7E3D5003F8DFB /* simpleViewerViewController.m */,
+				78D5D05D14C7E3D5003F8DFB /* simpleViewerViewController.xib */,
+				78D5D04F14C7E3D5003F8DFB /* Supporting Files */,
+			);
+			path = simpleViewer;
+			sourceTree = "<group>";
+		};
+		78D5D04F14C7E3D5003F8DFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78D5D05014C7E3D5003F8DFB /* simpleViewer-Info.plist */,
+				78D5D05114C7E3D5003F8DFB /* InfoPlist.strings */,
+				78D5D05414C7E3D5003F8DFB /* main.m */,
+				78D5D05614C7E3D5003F8DFB /* simpleViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78D5D04314C7E3D5003F8DFB /* simpleViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D5D06214C7E3D5003F8DFB /* Build configuration list for PBXNativeTarget "simpleViewer" */;
+			buildPhases = (
+				78D5D04014C7E3D5003F8DFB /* Sources */,
+				78D5D04114C7E3D5003F8DFB /* Frameworks */,
+				78D5D04214C7E3D5003F8DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpleViewer;
+			productName = simpleViewer;
+			productReference = 78D5D04414C7E3D5003F8DFB /* simpleViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78D5D03B14C7E3D5003F8DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Homiez Produciton";
+			};
+			buildConfigurationList = 78D5D03E14C7E3D5003F8DFB /* Build configuration list for PBXProject "simpleViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78D5D03914C7E3D5003F8DFB;
+			productRefGroup = 78D5D04514C7E3D5003F8DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78D5D04314C7E3D5003F8DFB /* simpleViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78D5D04214C7E3D5003F8DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D5D05314C7E3D5003F8DFB /* InfoPlist.strings in Resources */,
+				78D5D05F14C7E3D5003F8DFB /* simpleViewerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78D5D04014C7E3D5003F8DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D5D05514C7E3D5003F8DFB /* main.m in Sources */,
+				78D5D05914C7E3D5003F8DFB /* simpleViewerAppDelegate.m in Sources */,
+				78D5D05C14C7E3D5003F8DFB /* simpleViewerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78D5D05114C7E3D5003F8DFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D5D05214C7E3D5003F8DFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78D5D05D14C7E3D5003F8DFB /* simpleViewerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D5D05E14C7E3D5003F8DFB /* en */,
+			);
+			name = simpleViewerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78D5D06014C7E3D5003F8DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78D5D06114C7E3D5003F8DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78D5D06314C7E3D5003F8DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpleViewer/simpleViewer-Prefix.pch";
+				INFOPLIST_FILE = "simpleViewer/simpleViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78D5D06414C7E3D5003F8DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "simpleViewer/simpleViewer-Prefix.pch";
+				INFOPLIST_FILE = "simpleViewer/simpleViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78D5D03E14C7E3D5003F8DFB /* Build configuration list for PBXProject "simpleViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D5D06014C7E3D5003F8DFB /* Debug */,
+				78D5D06114C7E3D5003F8DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D5D06214C7E3D5003F8DFB /* Build configuration list for PBXNativeTarget "simpleViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D5D06314C7E3D5003F8DFB /* Debug */,
+				78D5D06414C7E3D5003F8DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78D5D03B14C7E3D5003F8DFB /* Project object */;
+}
